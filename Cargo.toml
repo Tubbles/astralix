@@ -5,11 +5,9 @@ authors = ["Johan Eriksson <jae91m@gmail.com>"]
 edition = "2021"
 
 [dependencies]
-specs = "0.17"
-specs-derive = "0.4.1"
-rand = "0.8.4"
+# bevy = { git = "https://github.com/bevyengine/bevy", rev = "615d43b9989c45cdd310d4bea1aaa3fc285b2782" }
+# bevy = { git = "https://github.com/bevyengine/bevy" }
 
-[dependencies.sdl2]
-version = "0.34.5"
-default-features = false
-features = ["image"]
+bevy = { version = "0.5.0", features = ["dynamic"] }
+# bevy = "0.5"
+# 615d43b9989c45cdd310d4bea1aaa3fc285b2782
